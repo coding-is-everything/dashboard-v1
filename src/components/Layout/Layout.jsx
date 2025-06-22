@@ -8,7 +8,7 @@ const Layout = () => {
     const { pathname } = useLocation();
 
     return (
-        <div className={cs.container}>
+        <div className={css.container}>
             <Sidebar />
             {pathname === "/" && <Navigate to="/dashboard" />}
 
