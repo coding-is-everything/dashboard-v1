@@ -1,12 +1,152 @@
-# React + Vite
+# React Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive dashboard application built with React, Vite, and Material-UI. This project features a kanban board, calendar integration, and various data visualization components.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Navigation
+- 🏠 **Dashboard** - Overview with key metrics and statistics
+- 📅 **Calendar** - FullCalendar integration for scheduling and events
+- 📋 **Board** - Interactive Kanban board with drag-and-drop functionality
+- 👥 **Users** - User management interface
 
-## Expanding the ESLint configuration
+### Core Functionality
+- 📊 **Interactive Kanban Board**
+  - Drag and drop cards between columns
+  - Add, edit, and delete cards
+  - Visual indicators for different card statuses
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📅 **Calendar View**
+  - Monthly, weekly, and daily views
+  - Event management
+  - Responsive design for all devices
+
+- 📈 **Data Visualization**
+  - Interactive charts and graphs
+  - Real-time data updates
+  - Customizable dashboards
+
+## 🛠️ Tech Stack
+
+- ⚛️ React 18.2.0
+- 🎨 Material-UI v7
+- 📅 FullCalendar
+- 📊 ECharts
+- 🛠️ Vite
+- 🔄 React Router v7
+- 🗄️ Zustand for state management
+- 🎨 Emotion for styling
+- 📅 Moment.js for date handling
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 16+ and npm/yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/dashboard-v1.git
+   cd dashboard-v1
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+## 📁 Project Structure
+
+```
+src/
+├── components/       # Reusable components
+├── pages/           # Page components
+│   ├── Dashboard/   # Dashboard page
+│   ├── Calendar/    # Calendar page
+│   └── Board/       # Kanban board page
+├── store/           # State management
+└── App.jsx         # Main application component
+```
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+### Building for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+## Project Structure
+
+```
+src/
+├── components/           # Reusable UI components
+│   ├── Layout/          # Layout components
+│   ├── Sidebar/         # Sidebar navigation
+│   └── AddCardModal/    # Modal for adding new cards
+├── pages/               # Page components
+├── store/               # State management
+├── utils/               # Utility functions
+├── App.jsx              # Main App component
+└── main.jsx             # Application entry point
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Material-UI](https://mui.com/)
+- [ECharts](https://echarts.apache.org/)
+- [FullCalendar](https://fullcalendar.io/)
