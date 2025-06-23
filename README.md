@@ -2,29 +2,43 @@
 
 A modern, responsive dashboard application built with React, Vite, and Material-UI. This project features a kanban board, calendar integration, and various data visualization components.
 
-![Dashboard Preview](public/preview.png)
+## 🚀 Features
 
-## Features
+### Navigation
+- 🏠 **Dashboard** - Overview with key metrics and statistics
+- 📅 **Calendar** - FullCalendar integration for scheduling and events
+- 📋 **Board** - Interactive Kanban board with drag-and-drop functionality
+- 👥 **Users** - User management interface
 
-- 📊 Interactive Kanban board with drag-and-drop functionality
-- 📅 FullCalendar integration for scheduling and events
-- 📊 ECharts for beautiful data visualizations
-- 🎨 Material-UI components for a polished UI
-- 🚀 Built with Vite for fast development and optimized production builds
-- 🔄 React Router for seamless navigation
-- 📱 Fully responsive design
+### Core Functionality
+- 📊 **Interactive Kanban Board**
+  - Drag and drop cards between columns
+  - Add, edit, and delete cards
+  - Visual indicators for different card statuses
 
-## Tech Stack
+- 📅 **Calendar View**
+  - Monthly, weekly, and daily views
+  - Event management
+  - Responsive design for all devices
 
-- ⚛️ React 19
+- 📈 **Data Visualization**
+  - Interactive charts and graphs
+  - Real-time data updates
+  - Customizable dashboards
+
+## 🛠️ Tech Stack
+
+- ⚛️ React 18.2.0
 - 🎨 Material-UI v7
 - 📅 FullCalendar
 - 📊 ECharts
 - 🛠️ Vite
-- 🔄 React Router
+- 🔄 React Router v7
 - 🗄️ Zustand for state management
+- 🎨 Emotion for styling
+- 📅 Moment.js for date handling
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -48,6 +62,39 @@ A modern, responsive dashboard application built with React, Vite, and Material-
 3. Start the development server
    ```bash
    npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+## 📁 Project Structure
+
+```
+src/
+├── components/       # Reusable components
+├── pages/           # Page components
+│   ├── Dashboard/   # Dashboard page
+│   ├── Calendar/    # Calendar page
+│   └── Board/       # Kanban board page
+├── store/           # State management
+└── App.jsx         # Main application component
+```
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
    # or
    yarn dev
    ```
