@@ -83,4 +83,4 @@ const OrdersPieChart = () => {
     );
 };
 
-export default OrderPieChart;
+export default OrdersPieChart;
