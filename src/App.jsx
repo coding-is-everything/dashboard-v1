@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from './components/Layout/Layout';
+import BoardPage from './pages/Board/Board';
 
 const App = () => {
   return <div id="dashboard">
@@ -8,7 +9,7 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route path="dashboard" element={<h1>Dashboard</h1>} />
           <Route path="calendar" element={<h1>Calendar</h1>} />
-          <Route path="board" element={<h1>Board</h1>} />
+          <Route path="board" element={<BoardPage />} />
           <Route path="users" element={<h1>Users</h1>} />
         </Route>
       </Routes>
