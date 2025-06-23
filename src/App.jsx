@@ -3,6 +3,7 @@ import Layout from './components/Layout/Layout';
 import BoardPage from './pages/Board/Board';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Calendar from "./pages/Calendar/Calendar";
+import DataGrid from "./pages/DataGrid/DataGrid";
 
 const App = () => {
   return <div id="dashboard">
@@ -12,7 +13,7 @@ const App = () => {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="calendar" element={<Calendar />} />
           <Route path="board" element={<BoardPage />} />
-          <Route path="users" element={<h1>Users</h1>} />
+          <Route path="users" element={<DataGrid />} />
         </Route>
       </Routes>
     </BrowserRouter>
